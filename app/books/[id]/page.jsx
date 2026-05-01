@@ -52,7 +52,7 @@ export default function BookDetails() {
   if (loading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-700"></div>
       </div>
     );
   }
@@ -72,7 +72,7 @@ export default function BookDetails() {
     <div className="container mx-auto px-4 py-8">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="flex flex-col md:flex-row">
-          <div className="md:w-1/2 relative min-h-[400px]">
+          <div className="md:w-1/2 relative min-h-100">
             {imageUrl ? (
               <Image
                 src={imageUrl}
