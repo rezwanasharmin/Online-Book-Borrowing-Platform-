@@ -15,7 +15,7 @@ export default function Footer() {
               <a href="#" className="hover:text-blue-400 transition">
                 <FaTwitter size={24} />
               </a>
-              <a href="#" className="hover:text-pink-500 transition">
+              <a href="#" className="hover:text-pink-400 transition">
                 <FaInstagram size={24} />
               </a>
             </div>
