@@ -109,7 +109,7 @@ export default function Home() {
                       <p className="text-sm text-gray-600 mb-2">by {book.author}</p>
                       <p className="text-xs text-gray-500 flex-1 line-clamp-2">{book.description}</p>
                       <div className="mt-4 flex justify-between items-center">
-                        <span className="text-sm text-green-600 font-semibold">{book.available_quantity} left</span>
+                        <span className="text-sm text-green-800 font-semibold">{book.available_quantity} left</span>
                         <Link
                           href={`/books/${book.id}`}
                           className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded text-sm font-semibold transition"
