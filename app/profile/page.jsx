@@ -54,10 +54,10 @@ export default function ProfilePage() {
             ))}
           </div>
 
-          <div className="rounded-3xl bg-purple-600 text-white p-6 flex flex-col justify-between">
+          <div className="rounded-3xl bg-purple-700 text-white p-6 flex flex-col justify-between">
             <div>
               <h2 className="text-2xl font-bold">Welcome back!</h2>
-              <p className="mt-3 text-purple-100">Keep your account details up-to-date and borrow your favorite books quickly.</p>
+              <p className="mt-3 text-purple-200">Keep your account details up-to-date and borrow your favorite books quickly.</p>
             </div>
             <Link href="/profile/edit" className="mt-6 inline-flex items-center justify-center rounded-full bg-white text-purple-700 px-5 py-3 font-semibold hover:bg-gray-100 transition">
               Edit Profile
