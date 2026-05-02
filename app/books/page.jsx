@@ -40,13 +40,13 @@ export default function AllBooks() {
       
       <div className="mb-8">
         <div className="relative">
-          <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+          <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
           <input
             type="text"
             placeholder="Search books by title..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full pl-10 pr-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
+            className="w-full pl-10 pr-4 py-3 border border-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
           />
         </div>
       </div>
@@ -68,7 +68,7 @@ export default function AllBooks() {
           
           {filteredBooks.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-gray-500">No books found matching your criteria.</p>
+              <p className="text-gray-600">No books found matching your criteria.</p>
             </div>
           )}
         </div>
