@@ -42,7 +42,7 @@ export default function ProfileEditPage() {
       <main className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-2xl font-bold">You are not logged in</h1>
-          <p className="mt-4 text-gray-600">Please login to update your profile.</p>
+          <p className="mt-4 text-gray-700">Please login to update your profile.</p>
         </div>
       </main>
     );
@@ -53,7 +53,7 @@ export default function ProfileEditPage() {
       <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-3xl p-8">
         <div className="mb-8 text-center">
           <h1 className="text-3xl font-bold text-gray-900">Edit Profile</h1>
-          <p className="mt-2 text-gray-600">Update your account details below.</p>
+          <p className="mt-2 text-gray-700">Update your account details below.</p>
         </div>
 
         <form className="space-y-6" onSubmit={handleSave}>
