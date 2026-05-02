@@ -39,7 +39,7 @@ export default function ProfilePage() {
       <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-3xl p-8">
         <div className="mb-8 text-center">
           <h1 className="text-4xl font-bold text-gray-900">My Profile</h1>
-          <p className="mt-2 text-gray-600">Manage your BookBorrow account information.</p>
+          <p className="mt-2 text-gray-700">Manage your BookBorrow account information.</p>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-2">
@@ -49,7 +49,7 @@ export default function ProfilePage() {
                 <h2 className="text-lg font-semibold text-gray-900">
                   {key.replace(/([A-Z])/g, ' $1').replace(/^./, (str) => str.toUpperCase())}
                 </h2>
-                <p className="text-gray-700">{String(value)}</p>
+                <p className="text-gray-800">{String(value)}</p>
               </div>
             ))}
           </div>

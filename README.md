@@ -129,7 +129,6 @@ GOOGLE_CLIENT_SECRET=your_google_secret
 ## 👨‍💻 Author
 Your Name - [Portfolio](#) | [GitHub](#) | Email: your.email@example.com
 
-## 📞 Support
-For support, email support@bookborrow.com or open an issue on GitHub.
+
 
 ---
